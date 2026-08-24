@@ -7,9 +7,6 @@ import logo from "@/public/logo/logo.svg"
 import Button from "@/src/components/button"
 
 const NAV_LINKS = [
-  { href: "/", label: "About Us" },
-  { href: "/", label: "Our Business" },
-  { href: "/", label: "Sustainability" },
   { href: "/", label: "Media" },
   { href: "/", label: "Careers" },
   { href: "/", label: "Contact Us" },
@@ -51,13 +48,13 @@ export default function Navigation() {
   const closeMenu = () => setOpen(false)
 
   return (
-    <nav className="relative z-50 w-full px-4 py-3 border-b-1 border-[#fff]/10">
+    <nav className="relative z-50 w-full px-4 border-b-1 border-[#fff]/10">
       <div className="relative z-50 flex items-center justify-between gap-4">
         <Link href="/" onClick={closeMenu} className="shrink-0">
           <Image
             src={logo}
             alt="MAHY Khooray Automotives"
-            className="h-10 w-auto md:h-14"
+            className="h-14 w-auto md:h-18"
             priority
           />
         </Link>
@@ -69,9 +66,9 @@ export default function Navigation() {
             </Link>
           ))}
           
-          <Button href="/contact" variant="primary" showArrow>
+          {/* <Button href="/contact" variant="primary" showArrow>
             Partner With Us
-          </Button>
+          </Button> */}
         </div>
 
         <button
@@ -105,7 +102,7 @@ export default function Navigation() {
       {open ? (
         <button
           type="button"
-          className="fixed inset-0 z-40 bg-black/40 lg:hidden"
+          className="fixed inset-0 z-40 bg-black/40 backdrop-blur-lg lg:hidden"
           aria-label="Close menu"
           onClick={closeMenu}
         />
@@ -128,7 +125,7 @@ export default function Navigation() {
               {item.label}
             </Link>
           ))}
-          <Button
+          {/* <Button
             href="/contact"
             variant="primary"
             showArrow
@@ -136,7 +133,7 @@ export default function Navigation() {
             onClick={closeMenu}
           >
             Partner With Us
-          </Button>
+          </Button> */}
         </div>
       </div>
     </nav>
