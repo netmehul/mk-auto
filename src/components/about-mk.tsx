@@ -44,7 +44,11 @@ As the automotive industry continues to transform, MAHY Khooray Automotive remai
 
       <motion.h1
         initial="hidden"
-        animate="visible"
+        whileInView="visible"
+        viewport={{
+          once: true,
+          amount: 0.3,
+        }}
         className="
           text-center
           text-3xl
@@ -87,7 +91,11 @@ As the automotive industry continues to transform, MAHY Khooray Automotive remai
 
       <motion.h1
         initial="hidden"
-        animate="visible"
+        whileInView="visible"
+        viewport={{
+          once: true,
+          amount: 0.3,
+        }}
         className="
           mt-1
           text-center
@@ -174,67 +182,71 @@ As the automotive industry continues to transform, MAHY Khooray Automotive remai
             TEXT
             ============================================================ */}
 
-            <motion.div
-            initial="hidden"
-            animate="visible"
-            className="
-                flex
-                w-full
-                max-w-[650px]
-                flex-col
-                gap-[24px]
-            "
-            variants={{
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          viewport={{
+            once: true,
+            amount: 0.2,
+          }}
+          className="
+            flex
+            w-full
+            max-w-[650px]
+            flex-col
+            gap-[24px]
+          "
+          variants={{
+            hidden: {},
+            visible: {
+              transition: {
+                staggerChildren: 0.025,
+              },
+            },
+          }}
+        >
+          {paragraphs.map((paragraph, paragraphIndex) => (
+            <motion.p
+              key={paragraphIndex}
+              variants={{
                 hidden: {},
-                visible: {
-                transition: {
-                    staggerChildren: 0.025,
-                },
-                },
-            }}
+                visible: {},
+              }}
+              className="
+                text-left
+                text-base
+                leading-relaxed
+                sm:text-base
+                md:text-md
+              "
             >
-            {paragraphs.map((paragraph, paragraphIndex) => (
-                <motion.p
-                key={paragraphIndex}
-                variants={{
-                    hidden: {},
-                    visible: {},
-                }}
-                className="
-                    text-left
-                    text-base
-                    leading-relaxed
-                    sm:text-base
-                    md:text-md
-                "
+              {paragraph.split(/\s+/).map((word, index) => (
+                <motion.span
+                  key={index}
+                  variants={{
+                    hidden: {
+                      opacity: 0,
+                      filter: "blur(8px)",
+                      y: 8,
+                    },
+                    visible: {
+                      opacity: 1,
+                      filter: "blur(0px)",
+                      y: 0,
+                    },
+                  }}
+                  transition={{
+                    duration: 0.6,
+                    ease: [0.22, 1, 0.36, 1],
+                  }}
+                  className="mr-[0.25em] inline-block"
                 >
-                {paragraph.split(/\s+/).map((word, index) => (
-                    <motion.span
-                    key={index}
-                    variants={{
-                        hidden: {
-                        opacity: 0,
-                        filter: "blur(8px)",
-                        y: 8,
-                        },
-                        visible: {
-                        opacity: 1,
-                        filter: "blur(0px)",
-                        y: 0,
-                        },
-                    }}
-                    transition={{
-                        duration: 0.6,
-                        ease: [0.22, 1, 0.36, 1],
-                    }}
-                    className="mr-[0.25em] inline-block"
-                    >
-                    {word}
-                    </motion.span>
-                ))}
-                </motion.p>
-            ))}
-            </motion.div>
+                  {word}
+                </motion.span>
+              ))}
+            </motion.p>
+          ))}
+        </motion.div>
       </div>
     </div>
   );

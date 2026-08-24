@@ -82,6 +82,5 @@ export default function Hero() {
       </motion.p>
 
     </div>
-    
   );
 }
