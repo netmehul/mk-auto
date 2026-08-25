@@ -8,6 +8,7 @@ import DNASection from "@/src/components/dna-section";
 import WhyMk from "@/src/components/why-mk";
 import FAQSection, { FAQ } from "@/src/components/faq";
 import CtaBanner from "@/src/components/ctabanner";
+import Footer from "@/src/components/footer";
 
 export default function Home() {
   return (
@@ -50,6 +51,7 @@ export default function Home() {
         />
       </FAQSection>
       <CtaBanner />
+      <Footer />
 
     </section>
   );
