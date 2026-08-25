@@ -290,13 +290,13 @@ export default function Hero() {
           w-full
           max-w-[1600px]
           flex-col
-          items-center
+          
           gap-12
           px-6
           py-16
           md:min-h-[680px]
           md:flex-row
-          md:items-center
+          
           md:gap-2
           md:px-8
           md:py-10
@@ -324,11 +324,13 @@ export default function Hero() {
             initial="hidden"
             animate="visible"
             className="
-              max-w-[615px]
+              w-full
               text-3xl
               leading-[1.05]
               uppercase
-              sm:text-5xl
+              md:text-6xl
+              md:mt-28
+              md:w-[700px]
             "
           >
             {headingWords.map((word, index) => (
@@ -366,7 +368,7 @@ export default function Hero() {
             initial="hidden"
             animate="visible"
             className="
-              max-w-[380px]
+              max-w-[550px]
               text-lg
               leading-relaxed
               sm:text-base

@@ -9,9 +9,10 @@ export default function Home() {
     <section className="w-full">
       <Navigation />
       <Hero />
+      <BrandDiscovery />
       <AboutMk />
       <FounderNote />
-      <BrandDiscovery />
+
 
     </section>
   );
