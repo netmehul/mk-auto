@@ -14,7 +14,9 @@ export default function WhyMk() {
 
   return (
     <section className="bg-[#040504] md:pt-[270px]">
+      <Image src="/animation/animation-line.svg" alt="Decorative Line" width={130} height={80} className="w-full absolute" />
       <div className="w-full mx-auto flex flex-col p-12 gap-8 md:max-w-[1140px]">
+      
         <motion.h1
           initial="hidden"
           whileInView="visible"
