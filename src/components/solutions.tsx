@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { motion } from "motion/react";
+import GlobalDecorations from "./global-decorations";
 
 /* ============================================================
    SERVICES
@@ -260,7 +261,7 @@ function Hexagon({
             text-[17px]
             uppercase
             leading-[1.35]
-            text-white/75
+            text-white/100
           "
         >
           {service.name}
@@ -290,6 +291,7 @@ export default function Solutions() {
         md:py-[110px]
       "
     >
+        <GlobalDecorations />
       {/* ======================================================
           BACKGROUND ATMOSPHERE
           ====================================================== */}

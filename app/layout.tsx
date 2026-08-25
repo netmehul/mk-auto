@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Electrolize } from "next/font/google";
+import GlobalDecorations from "@/src/components/global-decorations";
 import "./globals.css";
 
 
@@ -31,7 +32,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={`${electrolize.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+      <GlobalDecorations />
+        {children}
+      </body>
     </html>
   );
 }

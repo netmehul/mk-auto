@@ -23,3 +23,8 @@ body {
 .container {
   max-width: 1140px;
 }
+
+
+.special-bg{
+  background: linear-gradient(180deg, #020229 0%, #040504 20%);
+}
