@@ -147,7 +147,7 @@ export default function FAQSection({
               md:text-5xl
             "
           >
-            Everything You Need To Know
+            FREQUENTLY ASKED QUESTIONS
           </motion.h2>
 
         </div>
@@ -160,7 +160,7 @@ export default function FAQSection({
         <div
           className="
             w-full
-            border-t
+            border-1
             border-white/[0.1]
           "
         >
@@ -181,8 +181,8 @@ export default function FAQSection({
                 key={`${question}-${index}`}
                 className="
                   w-full
-                  border-b
-                  border-white/[0.08]
+                  border-1
+                  border-white/[0.1]
                 "
               >
 
@@ -206,10 +206,11 @@ export default function FAQSection({
                     w-full
                     items-center
                     gap-5
-                    py-6
+                    py-3
                     text-left
                     md:gap-6
                     md:py-6
+                    
                   "
                 >
 
@@ -226,8 +227,6 @@ export default function FAQSection({
                       shrink-0
                       items-center
                       justify-center
-                      border
-                      border-white/[0.14]
                       text-white
                       transition-all
                       duration-300
@@ -346,6 +345,7 @@ export default function FAQSection({
                       group-hover:opacity-70
                       sm:text-base
                       md:text-lg
+                      
                     "
                   >
                     {question}

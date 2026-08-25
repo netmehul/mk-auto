@@ -7,6 +7,7 @@ import Solutions from "@/src/components/solutions";
 import DNASection from "@/src/components/dna-section";
 import WhyMk from "@/src/components/why-mk";
 import FAQSection, { FAQ } from "@/src/components/faq";
+import CtaBanner from "@/src/components/ctabanner";
 
 export default function Home() {
   return (
@@ -48,6 +49,7 @@ export default function Home() {
           answer="Yes. MAHY Khooray Automotive provides aftersales support including vehicle maintenance, genuine parts, servicing, and customer care to help keep your vehicle performing at its best throughout ownership."
         />
       </FAQSection>
+      <CtaBanner />
 
     </section>
   );

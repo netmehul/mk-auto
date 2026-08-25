@@ -61,7 +61,7 @@ export default function WhyMk() {
             animate="visible"
             className="
               w-full
-              text-lg
+              text-sm
               leading-relaxed
               sm:text-base
               md:text-lg
@@ -98,8 +98,8 @@ export default function WhyMk() {
       </div>
 
 
-      <div className="w-full mt-[-150px] md:mt-[-450px]">
-        <img src={aboutImage} alt={altText} />
+      <div className="md:w-full mt-[-180px] md:mt-[-450px]">
+        <img src={aboutImage} alt={altText}/>
       </div>
     </section>
   );

@@ -8,6 +8,13 @@ import {
   PanInfo,
 } from "motion/react";
 
+import Button from "./button";
+
+
+// ================================================================
+// BRANDS
+// ================================================================
+
 const brands = [
   {
     id: "dongfeng",
@@ -58,9 +65,10 @@ const brands = [
   },
 ];
 
-/* ================================================================
-   MOBILE SWIPE SETTINGS
-   ================================================================ */
+
+// ================================================================
+// MOBILE SWIPE SETTINGS
+// ================================================================
 
 const swipeConfidenceThreshold = 8000;
 
@@ -71,18 +79,20 @@ const swipePower = (
   return Math.abs(offset) * velocity;
 };
 
-/* ================================================================
-   BRAND SHOWCASE
-   ================================================================ */
+
+// ================================================================
+// BRAND SHOWCASE
+// ================================================================
 
 export default function BrandShowcase() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const activeBrand = brands[activeIndex];
 
-  /* ==============================================================
-     DESKTOP TAB CHANGE
-     ============================================================== */
+
+  // ==============================================================
+  // DESKTOP TAB CHANGE
+  // ==============================================================
 
   const selectBrand = (index: number) => {
     if (index === activeIndex) return;
@@ -90,9 +100,10 @@ export default function BrandShowcase() {
     setActiveIndex(index);
   };
 
-  /* ==============================================================
-     MOBILE SLIDER
-     ============================================================== */
+
+  // ==============================================================
+  // MOBILE SLIDER
+  // ==============================================================
 
   const paginate = (direction: number) => {
     setActiveIndex((current) => {
@@ -109,6 +120,11 @@ export default function BrandShowcase() {
       return next;
     });
   };
+
+
+  // ==============================================================
+  // MOBILE DRAG
+  // ==============================================================
 
   const handleDragEnd = (
     _: MouseEvent | TouchEvent | PointerEvent,
@@ -133,15 +149,19 @@ export default function BrandShowcase() {
     }
   };
 
+
   return (
     <section className="w-full overflow-hidden">
+
       <div className="mx-auto w-full">
+
 
         {/* ==========================================================
             DESKTOP BRAND TABS
             ========================================================== */}
 
         <div className="hidden px-6 pt-10 md:block">
+
           <div
             className="
               mx-auto
@@ -155,7 +175,9 @@ export default function BrandShowcase() {
               md:w-full
             "
           >
+
             {brands.map((brand, index) => {
+
               const isActive =
                 index === activeIndex;
 
@@ -178,6 +200,7 @@ export default function BrandShowcase() {
                     md:w-full
                   "
                 >
+
                   {/* ==================================================
                       ACTIVE TAB BACKGROUND
                       ================================================== */}
@@ -199,6 +222,7 @@ export default function BrandShowcase() {
                       }}
                     />
                   )}
+
 
                   {/* ==================================================
                       DESKTOP LOGO
@@ -231,6 +255,7 @@ export default function BrandShowcase() {
                       justify-center
                     "
                   >
+
                     <Image
                       src={brand.logo}
                       alt={brand.name}
@@ -251,19 +276,32 @@ export default function BrandShowcase() {
                             : "none",
                       }}
                     />
+
                   </motion.div>
+
                 </button>
               );
             })}
+
           </div>
+
         </div>
+
 
         {/* ==========================================================
             MOBILE BRAND SELECTOR
             ========================================================== */}
 
         <div className="px-5 pt-8 md:hidden">
-          <div className="flex items-center justify-center gap-4">
+
+          <div
+            className="
+              flex
+              items-center
+              justify-center
+              gap-4
+            "
+          >
 
             {/* Previous */}
 
@@ -292,6 +330,7 @@ export default function BrandShowcase() {
               ←
             </button>
 
+
             {/* Active Brand */}
 
             <div
@@ -306,28 +345,27 @@ export default function BrandShowcase() {
                 px-6
               "
             >
+
               <AnimatePresence
                 mode="wait"
               >
+
                 <motion.div
                   key={activeBrand.id}
                   initial={{
                     opacity: 0,
                     y: 8,
-                    filter:
-                      "blur(6px)",
+                    filter: "blur(6px)",
                   }}
                   animate={{
                     opacity: 1,
                     y: 0,
-                    filter:
-                      "blur(0px)",
+                    filter: "blur(0px)",
                   }}
                   exit={{
                     opacity: 0,
                     y: -8,
-                    filter:
-                      "blur(6px)",
+                    filter: "blur(6px)",
                   }}
                   transition={{
                     duration: 0.35,
@@ -344,6 +382,7 @@ export default function BrandShowcase() {
                     justify-center
                   "
                 >
+
                   {/* ==================================================
                       MOBILE LOGO
 
@@ -363,9 +402,13 @@ export default function BrandShowcase() {
                       object-contain
                     "
                   />
+
                 </motion.div>
+
               </AnimatePresence>
+
             </div>
+
 
             {/* Next */}
 
@@ -393,11 +436,21 @@ export default function BrandShowcase() {
             >
               →
             </button>
+
           </div>
+
 
           {/* Mobile Progress */}
 
-          <div className="mt-4 flex justify-center gap-2">
+          <div
+            className="
+              mt-4
+              flex
+              justify-center
+              gap-2
+            "
+          >
+
             {brands.map(
               (brand, index) => (
                 <button
@@ -409,6 +462,7 @@ export default function BrandShowcase() {
                   aria-label={`Go to ${brand.name}`}
                   className="p-1"
                 >
+
                   <motion.span
                     animate={{
                       width:
@@ -433,21 +487,27 @@ export default function BrandShowcase() {
                       bg-white
                     "
                   />
+
                 </button>
               )
             )}
+
           </div>
+
         </div>
+
 
         {/* ==========================================================
             IMAGE + OVERLAY
             ========================================================== */}
 
         <div className="mt-8 md:mt-0">
+
           <AnimatePresence
             mode="wait"
             initial={false}
           >
+
             <motion.div
               key={activeBrand.id}
               initial={{
@@ -521,6 +581,7 @@ export default function BrandShowcase() {
                     inset-0
                   "
                 >
+
                   <Image
                     src={activeBrand.image}
                     alt={activeBrand.name}
@@ -533,7 +594,9 @@ export default function BrandShowcase() {
                       object-cover
                     "
                   />
+
                 </motion.div>
+
 
                 {/* ==================================================
                     EXACT FIGMA BLENDING OVERLAY
@@ -563,6 +626,7 @@ export default function BrandShowcase() {
                     `,
                   }}
                 />
+
 
                 {/* ==================================================
                     SUBTLE SIDE BLEND
@@ -602,6 +666,7 @@ export default function BrandShowcase() {
 
               </motion.div>
 
+
               {/* ====================================================
                   CONTENT
                   ==================================================== */}
@@ -616,6 +681,7 @@ export default function BrandShowcase() {
                   gap-6
                   px-6
                   py-8
+
                   md:flex-row
                   md:items-center
                   md:justify-between
@@ -625,20 +691,20 @@ export default function BrandShowcase() {
                 "
               >
 
-                {/* Description */}
+                {/* ==================================================
+                    DESCRIPTION
+                    ================================================== */}
 
                 <motion.p
                   initial={{
                     opacity: 0,
                     y: 15,
-                    filter:
-                      "blur(6px)",
+                    filter: "blur(6px)",
                   }}
                   animate={{
                     opacity: 1,
                     y: 0,
-                    filter:
-                      "blur(0px)",
+                    filter: "blur(0px)",
                   }}
                   transition={{
                     delay: 0.15,
@@ -655,84 +721,43 @@ export default function BrandShowcase() {
                     text-center
                     leading-relaxed
                     text-white/75
+
                     md:text-left
                     md:text-base
                     md:text-[20px]
-                    
                   "
                 >
                   {activeBrand.description}
                 </motion.p>
 
-                {/* CTA */}
 
-                <motion.a
+                {/* ==================================================
+                    CTA
+                    ================================================== */}
+
+                <Button
+                  variant="primary"
+                  showArrow
                   href={activeBrand.href}
-                  initial={{
-                    opacity: 0,
-                    y: 15,
-                  }}
-                  animate={{
-                    opacity: 1,
-                    y: 0,
-                  }}
-                  transition={{
-                    delay: 0.25,
-                    duration: 0.5,
-                    ease: [
-                      0.22,
-                      1,
-                      0.36,
-                      1,
-                    ],
-                  }}
-                  whileHover={{
-                    y: -2,
-                  }}
-                  whileTap={{
-                    scale: 0.97,
-                  }}
+                  delay={0.25}
                   className="
-                    group
-                    inline-flex
                     shrink-0
-                    items-center
-                    justify-center
-                    gap-5
-                    bg-white
                     px-6
                     py-4
                     text-[14px]
-                    font-medium
-                    uppercase
-                    tracking-wide
-                    text-[#020229]
-                    transition
                   "
                 >
-                  <span>
-                    {activeBrand.cta}
-                  </span>
-
-                  <motion.span
-                    animate={{
-                      x: 0,
-                    }}
-                    whileHover={{
-                      x: 4,
-                    }}
-                    className="
-                      text-base
-                    "
-                  >
-                    →
-                  </motion.span>
-                </motion.a>
+                  {activeBrand.cta}
+                </Button>
 
               </div>
+
             </motion.div>
+
           </AnimatePresence>
+
         </div>
+
 
         {/* ==========================================================
             DESKTOP PROGRESS
@@ -745,10 +770,12 @@ export default function BrandShowcase() {
             max-w-[1140px]
             px-6
             pb-10
+
             md:block
             md:px-0
           "
         >
+
           <div
             className="
               flex
@@ -757,6 +784,7 @@ export default function BrandShowcase() {
               bg-white/10
             "
           >
+
             {brands.map(
               (brand, index) => (
                 <motion.button
@@ -778,6 +806,7 @@ export default function BrandShowcase() {
                     flex-1
                   "
                 >
+
                   {index ===
                     activeIndex && (
                     <motion.span
@@ -791,13 +820,17 @@ export default function BrandShowcase() {
                       "
                     />
                   )}
+
                 </motion.button>
               )
             )}
+
           </div>
+
         </div>
 
       </div>
+
     </section>
   );
 }
