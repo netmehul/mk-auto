@@ -1,0 +1,65 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+@keyframes kf_Group_14_transform_0 {
+  0% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateX(7.923px) translateY(7.923px) translate(48.038px, 48.038px) rotate(0rad) translate(-48.038px, -48.038px);
+  }
+  100% {
+    transform: translateX(7.923px) translateY(7.923px) translate(48.038px, 48.038px) rotate(-6.283rad) translate(-48.038px, -48.038px);
+  }
+}
+#Group_14 {
+  transform-origin: 0 0;
+  animation: kf_Group_14_transform_0 4.368s linear infinite;
+}
+</style>
+<g id="genuine-part" clip-path="url(#clip0_1007_1024)">
+<g id="Group" transform="translate(12 12)">
+<g id="Group_14" transform="translate(7.92285 7.9231)">
+<g id="Group_12">
+<path id="Vector" transform="matrix(1 0 0 -1 0 96.0764)" d="M48.0383 96.0764C43.8752 96.0763 39.7297 95.5352 35.7061 94.4665C25.3351 92.8967 8.57715 80.9995 1.59889 60.3282C0.541981 56.3346 0 52.2046 0 48.0381C0 21.5076 21.5074 0 48.0383 0C74.569 0 96.0766 21.5076 96.0766 48.0381C96.0766 74.569 74.569 96.0764 48.0383 96.0764Z" stroke="white" stroke-miterlimit="2.613" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" transform="matrix(1 0 0 -1 46.0696 15.803)" d="M0 0L3.93761 6.82022" stroke="white" stroke-miterlimit="2.613" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" transform="matrix(1 0 0 -1 8.98315 50.0068)" d="M6.82022 0L0 3.93761" stroke="white" stroke-miterlimit="2.613" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" transform="matrix(0.579806 0.814754 0.814754 -0.579806 19.0771 22.36)" d="M6.82022 0L0 3.93761" stroke="white" stroke-miterlimit="2.613" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" transform="matrix(1 0 0 -1 13.2312 65.8608)" d="M7.87522 0H0" stroke="white" stroke-miterlimit="2.613" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" transform="matrix(1 0 0 -1 26.8059 80.8765)" d="M6.82022 3.93761L0 0" stroke="white" stroke-miterlimit="2.613" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_7" transform="matrix(1 0 0 -1 46.0696 87.0935)" d="M3.93761 6.82022L0 0" stroke="white" stroke-miterlimit="2.613" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_8" transform="matrix(1 0 0 -1 65.8608 82.8452)" d="M0 7.87522V0" stroke="white" stroke-miterlimit="2.613" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_9" transform="matrix(1 0 0 -1 76.9392 69.271)" d="M0 6.82022L3.93761 0" stroke="white" stroke-miterlimit="2.613" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_10" transform="matrix(1 0 0 -1 80.2734 50.0068)" d="M0 3.9374L6.82022 0" stroke="white" stroke-miterlimit="2.613" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_11" transform="matrix(1 0 0 -1 74.9702 30.2158)" d="M0 0H7.87522" stroke="white" stroke-miterlimit="2.613" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_12" transform="matrix(1 0 0 -1 62.4509 19.1374)" d="M0 0L6.82022 3.93761" stroke="white" stroke-miterlimit="2.613" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="Group_13" transform="translate(24.7864 24.7859)">
+<path id="Vector_13" transform="matrix(1 0 0 -1 0 44.5621)" d="M32.566 0.000634144C40.7706 3.59179 46.5039 11.7807 46.5039 21.3102C46.5039 34.1518 36.0936 44.5621 23.2519 44.5621C10.4101 44.5621 0 34.1518 0 21.3102C0 11.7803 5.73372 3.59095 13.9391 0" stroke="white" stroke-miterlimit="2.613" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_14" transform="matrix(1 0 0 -1 23.2505 8.4557)" d="M0 0H0.00174999" stroke="white" stroke-miterlimit="22.926" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_15" transform="matrix(1 0 0 -1 15.8525 10.4389)" d="M0 0L0.0015 0.000749998" stroke="white" stroke-miterlimit="22.926" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_16" transform="matrix(1 0 0 -1 10.4373 15.8554)" d="M0 0L0.000999997 0.0015" stroke="white" stroke-miterlimit="22.926" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_17" transform="matrix(1 0 0 -1 8.45557 23.2536)" d="M0 0V0.00174999" stroke="white" stroke-miterlimit="22.926" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_18" transform="matrix(1 0 0 -1 10.438 30.6517)" d="M0.000749998 0L0 0.00174999" stroke="white" stroke-miterlimit="22.926" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_19" transform="matrix(1 0 0 -1 15.854 36.067)" d="M0.0015 0L0 0.000999997" stroke="white" stroke-miterlimit="22.926" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_20" transform="matrix(1 0 0 -1 23.2522 38.0485)" d="M0.00174999 0H0" stroke="white" stroke-miterlimit="22.926" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_21" transform="matrix(1 0 0 -1 30.6504 36.0663)" d="M0.0015 0.000999997L0 0" stroke="white" stroke-miterlimit="22.926" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_22" transform="matrix(1 0 0 -1 36.0664 30.6503)" d="M0.000749998 0.0015L0 0" stroke="white" stroke-miterlimit="22.926" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_23" transform="matrix(1 0 0 -1 38.0486 23.2523)" d="M0 0.00199999V0" stroke="white" stroke-miterlimit="22.926" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_24" transform="matrix(1 0 0 -1 36.0652 15.8539)" d="M0 0.0015L0.000999997 0" stroke="white" stroke-miterlimit="22.926" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_25" transform="matrix(1 0 0 -1 30.6489 10.4381)" d="M0 0.000999997L0.0015 0" stroke="white" stroke-miterlimit="22.926" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_26" transform="matrix(1 0 0 -1 16.9106 29.5939)" d="M6.34144 0C9.83409 0 12.6829 2.84879 12.6829 6.34144C12.6829 9.83409 9.83409 12.6831 6.34144 12.6831C2.84879 12.6831 0 9.83409 0 6.34144C0 2.84879 2.84879 0 6.34144 0Z" stroke="white" stroke-miterlimit="2.613" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_27" transform="matrix(1 0 0 -1 23.252 46.5038)" d="M0 0H0.00174999" stroke="white" stroke-miterlimit="2.613" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g id="Group_15">
+<path id="Vector_28" transform="matrix(1 0 0 -1 16.077 44.052)" d="M11.4159 5.20308C8.69674 0.49308 5.16075 -0.971159 0.128608 0.61547C-1.70694 16.2662 16.5601 26.4276 25.923 29.552L27.3594 27.8462C28.9462 22.8143 27.4818 19.2781 22.7718 16.5589C20.4553 15.1599 18.317 13.4851 16.4039 11.5712C14.49 9.65784 12.8151 7.51955 11.4159 5.20308Z" fill="#1B1B3E" stroke="white" stroke-miterlimit="2.613" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_29" transform="matrix(1 0 0 -1 0 44.7817)" d="M0.132527 6.77881C1.31961 10.4708 2.86823 14.0366 4.75586 17.4244C3.60764 18.5726 3.44973 20.0891 4.11728 21.2449C9.11201 30.1641 14.6176 35.6698 23.5369 40.6647C24.6927 41.3321 26.2092 41.1741 27.3572 40.0259C30.745 41.9136 34.3109 43.4622 38.003 44.649C39.5735 45.1542 41.1407 44.161 41.5569 42.6075L44.7441 30.6469C44.9523 29.8699 44.2666 28.8377 43.4365 28.576C37.0534 26.5635 31.2451 23.023 26.5021 18.2796C21.759 13.5365 18.2185 7.72834 16.2058 1.34526C15.9441 0.515162 14.9117 -0.170559 14.1348 0.0376518L2.17405 3.22486C0.62103 3.64086 -0.372463 5.20804 0.132527 6.77881Z" fill="#1B1B3E" stroke="white" stroke-miterlimit="2.613" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_30" transform="matrix(1 0 0 -1 13.5483 31.4658)" d="M0 0L0.000999997 0.00174999" stroke="white" stroke-miterlimit="22.926" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_31" transform="matrix(1 0 0 -1 31.4646 13.5493)" d="M0 0L0.0015 0.000999997" stroke="white" stroke-miterlimit="22.926" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_1007_1024">
+<rect width="128" height="128" fill="white"/>
+</clipPath>
+</defs>
+</svg>

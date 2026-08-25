@@ -1,0 +1,152 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+@keyframes kf_Vector_3_transform_0 {
+  0% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateX(22.631px) translateY(39.494px) translate(1.417px, -1.417px) rotate(0rad) translate(-1.417px, 1.417px) scaleY(-1);
+  }
+  48.17% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateX(22.631px) translateY(39.494px) translate(1.417px, -1.417px) rotate(-6.283rad) translate(-1.417px, 1.417px) scaleY(-1);
+  }
+  100% {
+    transform: translateX(22.631px) translateY(39.494px) translate(1.417px, -1.417px) rotate(0rad) translate(-1.417px, 1.417px) scaleY(-1);
+  }
+}
+#Vector_3 {
+  transform-origin: 0 0;
+  animation: kf_Vector_3_transform_0 4.368s linear infinite;
+}
+@keyframes kf_Vector_5_transform_0 {
+  0% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateX(100.788px) translateY(39.494px) translate(1.417px, -1.417px) rotate(0rad) translate(-1.417px, 1.417px) scaleY(-1);
+  }
+  48.17% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateX(100.788px) translateY(39.494px) translate(1.417px, -1.417px) rotate(-6.283rad) translate(-1.417px, 1.417px) scaleY(-1);
+  }
+  100% {
+    transform: translateX(100.788px) translateY(39.494px) translate(1.417px, -1.417px) rotate(0rad) translate(-1.417px, 1.417px) scaleY(-1);
+  }
+}
+#Vector_5 {
+  transform-origin: 0 0;
+  animation: kf_Vector_5_transform_0 4.368s linear infinite;
+}
+@keyframes kf_Line_11_path-trim_0 {
+  0% {
+    animation-timing-function: cubic-bezier(0.368, 0, 0.699, 0.357);
+    stroke-dasharray: 0.55 1;
+    stroke-dashoffset: -0.45;
+    visibility: visible;
+  }
+  13.759% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    stroke-dasharray: 0.5213 1;
+    stroke-dashoffset: -0.45;
+    visibility: visible;
+  }
+  71.407% {
+    animation-timing-function: cubic-bezier(0.266, 0.604, 0.583, 1);
+    stroke-dasharray: 0.1434 1;
+    stroke-dashoffset: 0;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 0 1;
+    stroke-dashoffset: 0;
+    visibility: hidden;
+  }
+}
+#Line_11 {
+  animation: kf_Line_11_path-trim_0 4.368s linear infinite;
+}
+@keyframes kf_Line_13_path-trim_0 {
+  0% {
+    animation-timing-function: cubic-bezier(0.368, 0, 0.699, 0.357);
+    stroke-dasharray: 0.55 1;
+    stroke-dashoffset: -0.45;
+    visibility: visible;
+  }
+  13.759% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    stroke-dasharray: 0.5213 1;
+    stroke-dashoffset: -0.45;
+    visibility: visible;
+  }
+  71.407% {
+    animation-timing-function: cubic-bezier(0.266, 0.604, 0.583, 1);
+    stroke-dasharray: 0.1434 1;
+    stroke-dashoffset: 0;
+    visibility: visible;
+  }
+  100% {
+    stroke-dasharray: 0 1;
+    stroke-dashoffset: 0;
+    visibility: hidden;
+  }
+}
+#Line_13 {
+  animation: kf_Line_13_path-trim_0 4.368s linear infinite;
+}
+@keyframes kf_Line_14_path-trim_0 {
+  0% {
+    animation-timing-function: cubic-bezier(0.273, -0.015, 0.614, 0.352);
+    stroke-dasharray: 0.55 1;
+    stroke-dashoffset: -0.45;
+    visibility: visible;
+  }
+  6% {
+    animation-timing-function: cubic-bezier(0.651, -0.019, 0.986, 0.844);
+    stroke-dasharray: 0.5043 1;
+    stroke-dashoffset: -0.45;
+    visibility: visible;
+  }
+  31.138% {
+    animation-timing-function: cubic-bezier(0.571, 0.444, 1, 0.861);
+    stroke-dasharray: 0.4282 1;
+    stroke-dashoffset: 0;
+    visibility: visible;
+  }
+  43.607% {
+    stroke-dasharray: 0 1;
+    stroke-dashoffset: 0;
+    visibility: hidden;
+  }
+  100% {
+    stroke-dasharray: 0 1;
+    stroke-dashoffset: 0;
+    visibility: hidden;
+  }
+}
+#Line_14 {
+  animation: kf_Line_14_path-trim_0 4.368s linear infinite;
+}
+</style>
+<g id="vehicle-destribution" clip-path="url(#clip0_1007_948)">
+<g id="Group" transform="translate(1.875 32.9519)">
+<path id="Vector" transform="matrix(1 0 0 -1 14.0282 48.0968)" d="M20.0402 10.0202C20.0402 4.48624 15.554 0 10.02 0C4.48624 0 0 4.48624 0 10.0202C0 15.5542 4.48624 20.0404 10.02 20.0404C15.554 20.0404 20.0402 15.5542 20.0402 10.0202Z" stroke="white" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" transform="matrix(1 0 0 -1 34.0684 40.0805)" d="M0 0H58.1166" stroke="white" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" transform="matrix(1 0 0 -1 22.6312 39.4935)" d="M2.83424 2.83399L0 0" stroke="white" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" transform="matrix(1 0 0 -1 92.185 48.0968)" d="M20.0402 10.0202C20.0402 4.48624 15.554 0 10.02 0C4.48624 0 0 4.48624 0 10.0202C0 15.5542 4.48624 20.0404 10.02 20.0404C15.554 20.0404 20.0402 15.5542 20.0402 10.0202Z" stroke="white" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" transform="matrix(1 0 0 -1 100.788 39.4935)" d="M0 2.83399L2.83399 0" stroke="white" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" transform="matrix(1 0 0 -1 -5.38157e-06 40.0805)" d="M14.0282 2.00399L5.16198 3.27049C2.19999 3.69374 0 6.23048 0 9.22222V22.8412C0.000367092 24.9295 0.652906 26.9656 1.86649 28.6652L7.62248 36.7236C8.3642 37.7618 9.343 38.608 10.4775 39.1918C11.612 39.7757 12.8695 40.0803 14.1455 40.0804H60.5503C65.5051 40.0804 70.357 38.6676 74.5373 36.0074L90.181 26.0522C90.181 26.0522 108.348 26.0522 119.681 20.7884C122.488 19.4852 124.25 16.6375 124.25 13.5432V4.00799C124.249 1.79449 122.455 0 120.241 0" stroke="white" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_7" transform="matrix(1 0 0 -1 13.4704 14.0284)" d="M76.7106 0H2.00703C0.468282 0 -0.496463 1.66225 0.267034 2.99824L6.56977 14.0282" stroke="white" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_8" transform="matrix(1 0 0 -1 42.0844 32.0645)" d="M0 0H42.0844" stroke="white" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_9" transform="matrix(1 0 0 -1 -5.50078e-06 20.0403)" d="M0 0H4.00799" stroke="white" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_10" transform="matrix(1 0 0 -1 118.237 24.0483)" d="M0 0H4.84299" stroke="white" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_11" transform="matrix(1 0 0 -1 34.0684 14.0284)" d="M0 0V14.0282" stroke="white" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_12" transform="matrix(1 0 0 -1 54.1086 14.0284)" d="M0 14.0282L2.00399 0" stroke="white" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<line id="Line_10" transform="translate(2 83)" y1="-0.5" x2="126" y2="-0.5" stroke="white"/>
+<line id="Line_11" transform="translate(14 89)" y1="-0.5" x2="80" y2="-0.5" pathLength="1" stroke="white" stroke-dasharray="0.55 1" stroke-dashoffset="-0.45"/>
+<line id="Line_13" transform="translate(14 89)" y1="-0.5" x2="80" y2="-0.5" pathLength="1" stroke="white" stroke-dasharray="0.55 1" stroke-dashoffset="-0.45"/>
+<line id="Line_14" transform="translate(40 96)" y1="-0.5" x2="80" y2="-0.5" pathLength="1" stroke="white" stroke-dasharray="0.55 1" stroke-dashoffset="-0.45"/>
+</g>
+<defs>
+<clipPath id="clip0_1007_948">
+<rect width="128" height="128" fill="white"/>
+</clipPath>
+</defs>
+</svg>
